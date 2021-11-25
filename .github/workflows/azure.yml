@@ -47,7 +47,7 @@ jobs:
           api_location: "api" # Api source code path - optional
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
-          skip_deploy_on_missing_secrets: true
+          deployment_token: '3d45094cf59da9de4de6b10bd9bff25dc1f599b1bff8c0e4b76b772f3103a4310-67ecc962-05d7-415e-8aca-6e57db3c37d400016911'
         env: # Add environment variables here
             REACT_APP_STORAGESASTOKEN: ${{secrets.REACT_APP_STORAGESASTOKEN}}
             REACT_APP_STORAGERESOURCENAME: ${{secrets.REACT_APP_STORAGERESOURCENAME}}
